@@ -1,9 +1,10 @@
 {
   "name": "json-schema-to-zod-openai",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Convert JSON Schema to Zod schema. Tailored for OpenAI.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "build": "tsc"
   },
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/mhmd-azeez/json-schema-to-zod-openai/issues"
   },
-  "homepage": "https://github.com/mhmd-azeez/json-schema-to-zod-openai#readme"
+  "homepage": "https://github.com/mhmd-azeez/json-schema-to-zod-openai#readme",
+  "files": [
+    "dist"
+  ]
 }

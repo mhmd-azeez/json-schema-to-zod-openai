@@ -1,4 +1,3 @@
-
 import { z } from "zod";
 
 // Converts a JSON schema to a Zod schema tailored for OpenAI's structured output schema
